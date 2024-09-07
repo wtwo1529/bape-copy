@@ -1,0 +1,37 @@
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-btn {
+  position: relative;
+  margin: 100px 0;
+  width: 90%;
+  appearance: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.img-btn:hover,
+.img-btn:focus,
+.img-btn:focus-visible {
+  border: 0;
+  outline: 0;
+}
+.gallery-img {
+  width: 100%;
+}
+.img-text {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-stretch: condensed;
+  font-size: 2.083vw;
+}

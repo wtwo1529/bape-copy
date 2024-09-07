@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "FuturaLTCondensedWebfont";
+  src: url(./Futura\ LT\ Condensed\ Regular.ttf);
+}
+.left-side {
+  margin-right: auto;
+  background-color: inherit;
+}
+.right-side {
+  margin-left: auto;
+  background-color: inherit;
+}
+.nav-bar {
+  padding: 30px 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.87);
+  z-index: 10;
+}
+.nav-btn {
+  font-family: inherit;
+  background-color: transparent;
+}

@@ -1,0 +1,23 @@
+.bape-shops-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.bape-shops-container .header {
+  color: #242424;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.bape-shops-container .item-container {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  margin: 40px 27px;
+}
+.bape-shop {
+  width: 20%;
+}
+.bape-shop-img {
+  width: 100%;
+}
